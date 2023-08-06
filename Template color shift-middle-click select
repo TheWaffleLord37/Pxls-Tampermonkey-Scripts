@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Template color shift-middle-click select
 // @version      0.2
-// @description  When a template is loaded, right clicking a pixel on the template selects that color in the template instead of the color of the canvas.
+// @description  When a template is loaded, holding shift and middle clicking a pixel on the template selects that color in the template instead of the color of the canvas.
 // @author       Kris & ChatGPT
 // @match        https://pxls.space/
 // @match        canvas.toast.ooo
