@@ -5,7 +5,7 @@
 // @description  Allows scrolling through the palette while holding shift no matter where your cursor is located.
 // @author       int3nse#0854
 // @match        https://pxls.space/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=pxls.space
+// @icon         https://pxls.space/favicon.ico
 // @grant        none
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
