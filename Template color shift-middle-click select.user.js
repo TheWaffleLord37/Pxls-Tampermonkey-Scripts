@@ -53,7 +53,7 @@
         }
 
         get templateUrl() {
-            return document.getElementById('template-url').value;
+            return "https://pxls.space/cors/" + document.getElementById('template-url').value;
         }
 
         get templateWidth() {
