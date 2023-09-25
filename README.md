@@ -40,6 +40,7 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Num
 (Allows typing the number of a color to select it. To show which numbers correspond to which color, enable "Add numbers to palette entries" in the settings.)<br><br>
 
 ### Custom Chat Emojis[]()
+Author: juralumin<br>
 https://github.com/juralumin/swagmoji/raw/main/emoji.user.js<br>
 (More info here: https://github.com/juralumin/swagmoji)<br><br>
 
@@ -49,6 +50,7 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Can
 (Adds a countdown timer to the top of the screen. The countdown has to be manually configured by changing the unix timestamp in the script to match the announced reset date.)<br><br>
 
 ### Pxls Thin Window Dim[]()
+Author: Unknown<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Thin%20Window%20Dim.user.js<br>
 (Automatically dims Pxls if the window is below a certain width. (500 pixels.))<br><br>
 
