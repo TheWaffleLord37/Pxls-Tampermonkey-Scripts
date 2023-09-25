@@ -46,7 +46,7 @@ https://github.com/juralumin/swagmoji/raw/main/emoji.user.js<br>
 ### Pxls Canvas Countdown[]()
 Author: -FurryMaster-<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Canvas%20Countdown.user.js<br>
-(Adds a countdown timer to the top of the screen. The countdown has to be manually configured by changing the unix timestamp in the script to match the announced reset date.)
+(Adds a countdown timer to the top of the screen. The countdown has to be manually configured by changing the unix timestamp in the script to match the announced reset date.)<br><br>
 
 ### Pxls Thin Window Dim[]()
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Thin%20Window%20Dim.user.js<br>
