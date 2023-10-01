@@ -16,6 +16,8 @@
             const undoButton = document.querySelector("#undo span");
 
             if (undoButton) {
+                e.preventDefault();
+                e.stopPropagation();
                 undoButton.click();
             }
         }
