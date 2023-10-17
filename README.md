@@ -47,7 +47,7 @@ https://github.com/juralumin/swagmoji/raw/main/emoji.user.js<br>
 ### Pxls Transparent Reticule[]()
 Author: LittleEndu<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Transparent%20Reticule.user.js<br>
-(Makes the reticule transparent so it's easier to see templates.)
+(Makes the reticule transparent so it's easier to see templates.)<br><br>
 
 ### Pxls Canvas Countdown[]()
 Author: -FurryMaster-<br>
