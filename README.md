@@ -16,6 +16,8 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Und
 Author: Kris<br>
 https://github.com/TheWaffleLord37/Pxls-Script-Hosting/raw/main/Template%20color%20shift-middle-click%20select.user.js<br>
 (When a template is loaded, holding shift and middle clicking a pixel on the template selects that color in the template instead of the color of the canvas.)<br><br>
+Alternate version using shift-right-click instead of shift-middle-click:<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Template%20color%20shift-right-click%20select.user.js<br><br>
 
 ### Pxls Milestone Alerts[]()
 Author: GrayTurtles#6666<br>
