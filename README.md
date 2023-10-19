@@ -73,5 +73,5 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Coo
 
 ### Undo with Esc[]()
 Author: NickWoods<br>
-https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Undo%20with%20Esc.user.js<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Undo%20with%20Esc.user.js<br>
 (Allow to trigger the Undo action by pressing "Esc")
