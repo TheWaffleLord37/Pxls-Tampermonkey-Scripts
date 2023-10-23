@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pxls TTS
 // @version      0.1
-// @description  Enables simple text to speech for Pxls chat ("now you can have pxls brainrot beamed straight into yours ears constantly" -Kris)
+// @description  Enables simple text to speech for Pxls chat. "now you can have pxls brainrot beamed straight into yours ears constantly" -Kris
 // @author       Kris
 // @match        https://pxls.space/
 // @icon         https://pxls.space/favicon.ico
