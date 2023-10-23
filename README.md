@@ -46,6 +46,11 @@ Author: juralumin<br>
 https://github.com/juralumin/swagmoji/raw/main/emoji.user.js<br>
 (More info here: https://github.com/juralumin/swagmoji)<br><br>
 
+### Pxls TTS[]()
+Author: Kris<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20TTS.user.js<br>
+(Enables simple text to speech for Pxls chat. "now you can have pxls brainrot beamed straight into yours ears constantly" -Kris) (You can change "let requireCommand = false;" on line 30 to true to only enable TTS for messages starting with /tts)<br><br>
+
 ### Pxls Transparent Reticule[]()
 Author: LittleEndu<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Transparent%20Reticule.user.js<br>
