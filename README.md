@@ -1,6 +1,10 @@
+## Below is a list of every known publicly shared Tampermonkey script made for pxls.space.
+It is sorted from what I've personally found to be the most useful to least useful.<br>
+If you believe any of them should be swapped around, feel free to make a pull request, or dm me on Discord asking for me to change it.<br><br><br>
+
 ### For any of these scripts to work you need to add the Tampermonkey extension to your browser:<br>https://www.tampermonkey.net
 Once you have Tampermonkey installed, clicking on any of the links below will redirect you to a page where you can install that script with one click.<br>
-If you don't have Tampermonkey installed when clicking a link, your device will try to save the script as a file instead.<br><br><br><br><br>
+If you don't have Tampermonkey installed when clicking a link, your device will try to save the script as a file instead which will not affect the site.<br><br><br><br><br>
 
 ### Pxls Stack Timer[]()
 Author: GrayTurtles#6666<br>
