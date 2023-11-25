@@ -83,7 +83,7 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Col
 ### Pxls Coords Copier[]()
 Author: hazard12100<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Coords%20Copier.user.js<br>
-(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)
+(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)<br><br>
 
 ### Undo with Esc[]()
 Author: NickWoods<br>
