@@ -50,6 +50,11 @@ Author: juralumin<br>
 https://github.com/juralumin/swagmoji/raw/main/emoji.user.js<br>
 (More info here: https://github.com/juralumin/swagmoji)<br><br>
 
+### Pxls Clear Heatmap Every 3 Minutes[]()
+Author: ChatGPT<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Clear%20Heatmap%20Every%203%20Minutes.user.js<br>
+(Simulates pressing the "O" key every 3 minutes. Change "setInterval(pressKey, 180000);" to another value to change the rate at which the heatmap is reset. (Goes by milliseconds))<br><br>
+
 ### Pxls TTS[]()
 Author: Kris<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20TTS.user.js<br>
