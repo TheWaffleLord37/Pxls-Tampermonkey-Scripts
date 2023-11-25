@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Pxls Clear Heatmap Every 3 Minutes
 // @version    1.0
-// @description  Simulates pressing the "O" key every 3 minutes. Change "setInterval(pressKey, 180000);" to another value to change the rate at which the heatmap is reset. (Uses milliseconds)
+// @description  Simulates pressing the "O" key every 3 minutes. Change "setInterval(pressKey, 180000);" to another value to change the rate at which the heatmap is reset. (Goes by milliseconds)
 // @author       ChatGPT
 // @match        *://pxls.space/*
 // @grant      none
