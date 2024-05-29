@@ -1,5 +1,5 @@
 ## Below is a list of every known publicly shared Tampermonkey script made for pxls.space.
-It is sorted from what I've personally found to be the most useful to least useful.<br>
+It is roughly sorted from what I've personally found to be the most useful to least useful.<br>
 If you believe any of them should be swapped around, feel free to make a pull request, or dm me on Discord asking for me to change it.<br><br><br>
 
 ### For any of these scripts to work you need to add the Tampermonkey extension to your browser:<br>https://www.tampermonkey.net
