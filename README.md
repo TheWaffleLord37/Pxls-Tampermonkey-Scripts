@@ -45,6 +45,11 @@ Author: int3nse#0854<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Number%20-%3E%20Color.user.js<br>
 (Allows typing the number of a color to select it. To show which numbers correspond to which color, enable "Add numbers to palette entries" in the settings.)<br><br>
 
+### Undo with Esc[]()
+Author: NickWoods<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Undo%20with%20Esc.user.js<br>
+(Allow to trigger the Undo action by pressing "Esc")<br><br>
+
 ### Custom Chat Emojis[]()
 Author: juralumin<br>
 https://github.com/juralumin/swagmoji/raw/main/emoji.user.js<br>
@@ -83,9 +88,4 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Col
 ### Pxls Coords Copier[]()
 Author: hazard12100<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Coords%20Copier.user.js<br>
-(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)<br><br>
-
-### Undo with Esc[]()
-Author: NickWoods<br>
-https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Undo%20with%20Esc.user.js<br>
-(Allow to trigger the Undo action by pressing "Esc")
+(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)
