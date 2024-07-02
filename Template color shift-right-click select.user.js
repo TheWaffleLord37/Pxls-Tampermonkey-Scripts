@@ -2,7 +2,7 @@
 // @name         Template color shift-right-click select
 // @version      0.2
 // @description  When a template is loaded, holding shift and right-clicking a pixel on the template selects that color in the template instead of the color of the canvas.
-// @author       Kris & ChatGPT
+// @author       Kris, ChatGPT, Kaz
 // @match        https://pxls.space/
 // @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOESURBVDhPFZNZbFR1FIe//507W2frtNNl0oXajWlpy7QUBIkKVAWs4sKiBKQmakhpYkyIiT7ZuDz70ieV+CKvhmggBEOoW6JpVQpUtC12SrdpZ6adzkx75947c6+X53Nycs7vfJ84daTPlIQDuxMQGoYhoeY1JNlO7fZWKBRZnJ4Gm8A0DFxWozAEFHUKsg3bzs62YVPINDbXk1WydHTtItxQT3u0h2hvLw0tETJ5naqwn7tj4+w/eJStooSiqOjFAnK0txtNLdK7J8pXX//HE4f60TQdbyBIKODBMG1IhpPF2TGam6rIF/Nsa9uOszHM1NQsUmT3XnqePkpndDfkN2l9rI6alhbC28K4yh0YjhI6uyLkErNUBXyUlMg4PG7sQRddvT3Y3h06Mzzx5zhuh4ayNsfknd/57cdb1ITKuPTlCH1PHeD+2HXyK9NMzy/wzLGX6dj5OCUOH7UNDVY0enq4uS3CyMjnXBgcwMyuIdQ0S7F/HxUZvfYtG6l/ePX4CVRniAN9R/j04884+dpZtrbSiK7OJlMTblyuIuFSwZVLX5DPLqOZJrLTiZZRUUWWTUcdh/vfBkOlsrqC188OcOfXW4jx27fNk/1PUlFdxsbWFj9f/YbV+QkkK7xHAXqEgiQCyJUHKQRMTh8/hldyUXAanDj9FvIHH55h/6EdlLj8JFMbZJRN9DyUe73ILq8FR57M5joNFRkGhoY4/Gw3kl2g6ArVoRBSa90u5uZy3JuIcf6N82i5DAF/JWpRkLZ+nbYYAJn5+2N8cnGY1EqeuYcZ1I1aVCWDWJqfNpfXHuC1F7CreXLJFeyyE9MtMTUzTaQ5QsFaSWxZg5wuvDUhDHcV9ZV7SSQmkX4av0ttWTPZh8vk1hYpGiYOt8W1UqC7PQqSDafbhxQsxbRpFg9x9PWcdQakcjLi++8umzevXqF3RwPVFV78gWp+uHGD0mCQdGaNQDCArltkej3s2bcPBzr3/p5h7K8FXnnzAuL6tctmJpFiYvwXqsrd+Hw+mpqaKQ0ESKwl8fn9eDxeVlfiKKqG2yWxuBAnnjJ46dwgtqpwcLjdEqijs4vR0ZuWZQqpZJxEOmkJJ9hIbrC8tGDJoyPpGrMPYvwxGWPw4kesptYR7793zvSFqnHY4IXnn7Omx8jFY8QTCVw2O7JFoykVLL29zMRmCFQ28uKpd5iNL2Aqgv8BL6t6iusC390AAAAASUVORK5CYII=
 // @grant        none
@@ -156,7 +156,8 @@
         }
 
         get isCurrent() {
-            return (this.url === document.getElementById('template-url').value)
+            const reg = new RegExp(document.getElementById('template-url').value)
+            return reg.test(this.url)
         }
     }
 
