@@ -28,6 +28,11 @@ Author: GrayTurtles#6666<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Milestone%20Alerts.user.js<br>
 (Sends you an alert message when you hit all-time pixels placed milestones. Change "counts.pixelCountAllTime === 123456" to whatever number you want it to alert you at.)<br><br>
 
+### Palette Symbols[]()
+Author: Kaz<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Palette%20Symbols.user.js<br>
+(Adds an option in the UI Settings of the site to show symbols under each respective color to make following templates in the symbols style easier.)<br><br>
+
 ### Pxls Name/Ping Notifier[]()
 Authors: Mikarific, hazard12100<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Name%5CPing%20Notifier.user.js<br>
