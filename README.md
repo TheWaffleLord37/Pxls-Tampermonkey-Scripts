@@ -6,6 +6,11 @@ If you believe any changes should be made such as swapping their order around, a
 Once you have Tampermonkey installed, clicking on any of the links below will redirect you to a page where you can install that script with one click.<br>
 If you don't have Tampermonkey installed when clicking a link, your device will try to save the script as a file instead which will not affect the site.<br><br><br><br><br>
 
+### Auto Template Color[]()
+Author: WindySpoon<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw//main/Auto%20Template%20Color.user.js<br>
+(Allows you to place colors that will auto-match to template. This is legal for pxls since you still have to manually place each pixel.)<br><br>
+
 ### Pxls Stack Timer[]()
 Author: GrayTurtles#6666<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Stack%20Timer.user.js<br>
@@ -93,4 +98,16 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Col
 ### Pxls Coords Copier[]()
 Author: hazard12100<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Coords%20Copier.user.js<br>
-(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)
+(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)<br><br><br><br><br>
+
+----------------------------------------------------------------------------------------------------<br><br><br><br><br>
+
+## Below this is a "style" as opposed to a script, and it uses a different extension called Stylus:<br>https://github.com/openstyles/stylus?tab=readme-ov-file#releases
+
+<br>
+
+### sitelen pona lon lipu Pxls[]()
+Author: mikarific<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw//main/sitelen%20pona%20lon%20lipu%20Pxls.user.css<br>
+(Adds support for UCSUR style sitelen pona in Pxls chat.)<br><br>
+(If you don't know how to input sitelen pona in the UCSUR format, there is a guide here:<br>https://github.com/Id405/sitelen-pona-ucsur-guide/blob/main/README.md.)
