@@ -98,12 +98,7 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Col
 ### Pxls Coords Copier[]()
 Author: hazard12100<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Coords%20Copier.user.js<br>
-(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)<br><br><br><br><br>
-
-### Pxls Archives Thumbnail Image Toggle[]()
-Author: ChatGPT<br>
-https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw//main/Pxls%20Archives%20Thumbnail%20Image%20Toggle.user.js<br>
-(Toggle between initial and final thumbnail images on https://archives.pxls.space/)<br><br><br>
+(Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)<br><br><br>
 
 ----------------------------------------------------------------------------------------------------<br><br><br>
 
