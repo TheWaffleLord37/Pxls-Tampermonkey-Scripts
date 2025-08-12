@@ -65,6 +65,14 @@ Author: juralumin<br>
 https://github.com/juralumin/swagmoji/raw/main/emoji.user.js<br>
 (More info here: https://github.com/juralumin/swagmoji)<br><br>
 
+### þorn (thorn) killer/adder[]()
+Authors (adder): int3nse#0854, Mikarific#4167<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/%C3%BEorn%20(thorn)%20adder.user.js<br>
+(Replaces all "th" characters with "þ")<br><br>
+Authors (killer): int3nse#0854, pt1<br>
+https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/%C3%BEorn%20(thorn)%20killer.user.js<br>
+(Killer: Replaces all thorn characters with "th")<br><br>
+
 ### Pxls TTS[]()
 Author: Kris<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20TTS.user.js<br>
