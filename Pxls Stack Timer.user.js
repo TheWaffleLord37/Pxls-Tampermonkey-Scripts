@@ -99,8 +99,6 @@
                 return
             }
             enabled = true
-
-            console.log("enable");
             containerEl.style.display = '';
 
             while (containerEl.firstChild) {
@@ -116,8 +114,6 @@
                 return
             }
             enabled = false
-
-            console.log("disable");
             containerEl.style.display = 'none';
 
             while (containerEl.firstChild) {
