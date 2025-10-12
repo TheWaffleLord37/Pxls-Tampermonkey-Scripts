@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Pxls Stack Timer
-// @version      1.2
+// @version      1.3
 // @description  Adds a timer below your stored pixels if you have more than one pixel that shows how long until you recive your next pixel. The timer is usually green but if it's red instead, that means it's better to wait to recieve your next pixel instead of placing one right away. (Warning: this is not 100% accurate, it might be off by a few seconds.)
 // @author       GrayTurtles#6666
 // @match        *://pxls.space/*
@@ -23,6 +23,8 @@
 
     const containerEl = crel('div', { id: 'stack-cooldown' }, null)
     containerEl.className = "text-green"
+    containerEl.style.fontWeight = "bold"
+    containerEl.style.display = 'none';
     function cooldown(users) {
         const cooldown = 2.5 * Math.sqrt(users + 11.96) + 6.5;
 
@@ -42,10 +44,15 @@
         return (cooldown * multiplier) * (1 + stack + sum_up_to_n(stack - 1));
     }
 
+    function getStackCount() {
+        const val = parseInt(document.getElementById('placeable-count').innerText.split("/")[0])
+        return Number.isNaN(val) ? 0 : val;
+    }
+
     function start() {
         const loginUsername = document.getElementById('username').innerText
-        var stack = parseInt(document.getElementById('placeable-count').innerText)
-        var users = parseInt(document.getElementById('online-count').innerText)
+        var stack = getStackCount()
+        var users = parseInt(document.getElementById('online-count-value').innerText)
         var lastPixelTime = null
         var nextPixelCooldown = null
 
@@ -55,32 +62,32 @@
 
         let enabled = false
         const timerEl = crel('span', { id: 'stack-timer' }, '???')
-        const timerIconEl = crel('i', { class: 'far fa-clock' })
+        const timerIconEl = crel('i', { class: 'fas fa-clock' })
 
         function loop() {
-            users = parseInt(document.getElementById('online-count').innerText)
-            stack = parseInt(document.getElementById('placeable-count').innerText)
-            if (stack && stack >= maxStacked){
+            users = parseInt(document.getElementById('online-count-value').innerText)
+            stack = getStackCount()
+            if (stack && stack >= maxStacked) {
                 nextPixelCooldown = null
             }
-            else if(replacePxlsTimer == false && document.getElementById('cooldown').style.display != "none"){
+            else if (replacePxlsTimer == false && document.getElementById('cooldown').style.display != "none") {
                 nextPixelCooldown = null
             }
-            else{
-                try{
+            else {
+                try {
                     let cd = cooldown(users)
-                    let stackCd = stackCooldown(cd,stack)
-                    let delta = (new Date()-lastPixelTime) / 1000;
-                    let seconds = Math.max(0,stackCd - delta) // show 0 if the time gets negative
+                    let stackCd = stackCooldown(cd, stack)
+                    let delta = (new Date() - lastPixelTime) / 1000;
+                    let seconds = Math.max(0, stackCd - delta) // show 0 if the time gets negative
                     nextPixelCooldown = " " + new Date(seconds * 1000).toISOString().substr(14, 5)
-                    if (seconds <= cd){
+                    if (seconds <= cd) {
                         containerEl.className = "text-red"
                     }
-                    else{
+                    else {
                         containerEl.className = "text-green"
                     }
                 }
-                catch{
+                catch {
                     nextPixelCooldown = null
                 }
             }
@@ -93,6 +100,9 @@
             }
             enabled = true
 
+            console.log("enable");
+            containerEl.style.display = '';
+
             while (containerEl.firstChild) {
                 containerEl.removeChild(containerEl.firstChild)
             }
@@ -101,21 +111,25 @@
             setInterval(loop, 500) // loop the function every 0.5 second
         }
 
-        function disable(){
-            if (enabled == false){
+        function disable() {
+            if (enabled == false) {
                 return
             }
             enabled = false
+
+            console.log("disable");
+            containerEl.style.display = 'none';
+
             while (containerEl.firstChild) {
                 containerEl.removeChild(containerEl.firstChild)
             }
         }
 
         function update() {
-            if(nextPixelCooldown == null){
+            if (nextPixelCooldown == null) {
                 disable()
             }
-            else{
+            else {
                 enable()
                 timerEl.innerText = nextPixelCooldown
                 //document.title= `(${stack}/6) pxls.space`
@@ -124,7 +138,7 @@
 
         $(window).on('pxls:ack:place', (ev, x, y) => {
             lastPixelTime = new Date()
-            if (enabled == false){
+            if (enabled == false) {
                 enable()
             }
         })
@@ -151,8 +165,8 @@
 
     window.addEventListener('load', function () {
         //document.getElementById('main-bubble').appendChild(containerEl)
-        var mainDiv = document.getElementById('main-bubble');
+        var mainDiv = document.getElementById('bubble-content');
         var div = mainDiv.getElementsByTagName('div')[4]; //fifth
-        mainDiv.insertBefore(containerEl,div.nextSibling);
+        mainDiv.append(containerEl, div.nextSibling);
     })
 })()
