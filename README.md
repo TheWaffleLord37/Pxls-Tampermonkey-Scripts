@@ -12,7 +12,7 @@ https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw//main/Auto%20Te
 (Allows you to place colors that will auto-match to template. This is legal for pxls since you still have to manually place each pixel.)<br><br>
 
 ### Pxls Stack Timer[]()
-Author: GrayTurtles#6666<br>
+Author: GrayTurtles#6666, Peyrov<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Stack%20Timer.user.js<br>
 (Adds a timer below your stored pixels if you have more than one pixel that shows how long until you receive your next pixel. The timer is usually green but if it's red instead, that means it's better to wait to receive your next pixel instead of placing one right away. (Warning: this is not 100% accurate, it might be off by a few seconds.))<br><br>
 
