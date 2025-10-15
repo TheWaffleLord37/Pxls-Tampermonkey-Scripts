@@ -2,7 +2,7 @@
 // @name         Pxls Stack Timer
 // @version      1.3
 // @description  Adds a timer below your stored pixels if you have more than one pixel that shows how long until you recive your next pixel. The timer is usually green but if it's red instead, that means it's better to wait to recieve your next pixel instead of placing one right away. (Warning: this is not 100% accurate, it might be off by a few seconds.)
-// @author       GrayTurtles#6666
+// @author       GrayTurtles#6666, Peyrov (Updated to work with UI bubble changes)
 // @match        *://pxls.space/*
 // @grant        none
 // @run-at       document-body
