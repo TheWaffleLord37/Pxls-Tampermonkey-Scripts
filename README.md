@@ -98,9 +98,18 @@ Author: hazard12100<br>
 https://github.com/TheWaffleLord37/Pxls-Tampermonkey-Scripts/raw/main/Pxls%20Coords%20Copier.user.js<br>
 (Intended for Clueless's snapshot command, specifically the coords parameter. Copies the coords of the current window (top left + bottom right) whenever the home key (7) on the numpad is pressed.)<br><br><br>
 
-----------------------------------------------------------------------------------------------------<br><br><br>
+----------------------------------------------------------------------------------------------------<br><br>
 
-### Scripts made by MotH (Pixel Activity)[]()
+### Scripts made by daavko[]()
+(Auto template color, milestone alerts, grief detector, template stats)
+
+https://pxls.daavko.moe/<br><br><br>
+
+----------------------------------------------------------------------------------------------------<br><br>
+
+### Script made by MotH[]()
+(Pixel Activity)
+
 https://github.com/zf-moth/pxls.space-userscripts#readme<br><br><br>
 
 ----------------------------------------------------------------------------------------------------<br><br><br>
